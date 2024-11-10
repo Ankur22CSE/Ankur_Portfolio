@@ -1,0 +1,85 @@
+body{
+    margin:0;
+    padding:0;
+    background-color:deepskyblue;
+}
+.header{
+    display: flex;
+    height: 10vw;
+}
+.header a  img{
+    height: 8rem;
+    border-radius: 5rem;
+    border: 4px solid white;
+    display: inline;
+}
+.guide ul{
+    display: flex;
+    list-style: none;
+}
+.guide a{
+    color: floralwhite;
+    padding-left: 2rem;
+    
+}
+.intro{
+    color: dodgerblue;
+    margin-left: 5vw;
+    margin-right:5vw;
+    height:80vh;
+    background-color: aliceblue;
+    border: 4px solid rgb(20, 135, 244);
+    border-radius: 5rem;
+}
+.intro p,h1{
+    display: flex;
+    justify-content: center;
+}
+.myhome{
+    height: 50vh;
+    margin: 2rem;
+    border: 8px solid gold;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: whitesmoke;
+}
+.myhome iframe{
+    height: 300px;
+    width: 500px;
+    border: 4px solid gold;
+    border-radius: 1rem;
+}
+.mytable{
+    display: flex;
+    justify-content: center;
+    border: 8px solid gold;
+    border-radius: 1rem;
+    background-color: aliceblue;
+    height:60vh;
+    margin: 2rem;
+}
+.mytable .maintable{
+    width: 30vw;
+    border-collapse: collapse;
+    margin: 5vh;
+}
+.mytable td{
+    border:4px solid deepskyblue
+}
+.mytable th{
+    height: 2rem;
+    background-color: deepskyblue;
+    color: aliceblue;
+    border: 4px solid rgb(13, 126, 170);
+}
+.mytable caption{
+    font-weight: 600;
+    caption-side:bottom;
+}
+.nestedtable{
+    border-collapse: collapse;
+    display: flex;
+    justify-content: space-around;
+}
