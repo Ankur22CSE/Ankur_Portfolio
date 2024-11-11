@@ -1,14 +1,21 @@
 body{
     margin:0;
     padding:0;
-    background-color:deepskyblue;
+    background-color: aquamarine;
 }
 .header{
     display: flex;
-    height: 10vw;
+    justify-content: space-between;
+    align-items: center;
+    height: 15%;
+    width: 100%;
+    font-size: 20px;
+    background-color: rgb(18, 246, 170);
+    position:fixed;
+    top: 0px;
 }
-.header a  img{
-    height: 8rem;
+.header img{
+    height: 6rem;
     border-radius: 5rem;
     border: 4px solid white;
     display: inline;
@@ -22,10 +29,18 @@ body{
     padding-left: 2rem;
     
 }
+.login{
+    display: flex;
+    align-items: center;
+    height: 30%;
+    color: purple;
+    background-color: beige;
+    border: 4px solid white;
+    border-radius: 2rem;
+}
 .intro{
     color: dodgerblue;
-    margin-left: 5vw;
-    margin-right:5vw;
+    margin:10%;
     height:80vh;
     background-color: aliceblue;
     border: 4px solid rgb(20, 135, 244);
@@ -36,8 +51,8 @@ body{
     justify-content: center;
 }
 .myhome{
-    height: 50vh;
-    margin: 2rem;
+    height: 70vh;
+    margin: 10%;
     border: 8px solid gold;
     border-radius: 1rem;
     display: flex;
@@ -51,35 +66,37 @@ body{
     border: 4px solid gold;
     border-radius: 1rem;
 }
-.mytable{
-    display: flex;
-    justify-content: center;
-    border: 8px solid gold;
-    border-radius: 1rem;
-    background-color: aliceblue;
-    height:60vh;
-    margin: 2rem;
-}
-.mytable .maintable{
-    width: 30vw;
+table {
+    width: 80%;
     border-collapse: collapse;
-    margin: 5vh;
-}
-.mytable td{
-    border:4px solid deepskyblue
-}
-.mytable th{
-    height: 2rem;
-    background-color: deepskyblue;
-    color: aliceblue;
-    border: 4px solid rgb(13, 126, 170);
-}
-.mytable caption{
-    font-weight: 600;
-    caption-side:bottom;
-}
-.nestedtable{
-    border-collapse: collapse;
-    display: flex;
-    justify-content: space-around;
-}
+    margin: 10%;
+    font-size: 18px; 
+    text-align: center;
+} 
+th, td { 
+    padding: 12px; 
+    border: 2px solid whitesmoke; 
+} 
+th { 
+    background-color: gold; 
+    color: rgb(8, 38, 205); 
+} 
+tr:nth-child(even) 
+{ 
+    background-color: #5bfb61;
+} 
+tr:nth-child(odd) 
+{ 
+    background-color: #f0e9ef;
+} 
+.highlight { 
+    background-color: #2dbcf5; 
+} 
+.footer { 
+    background-color: gold; 
+} 
+caption { 
+    caption-side: bottom; 
+    font-size: 16px; 
+    font-weight: bold; 
+} 

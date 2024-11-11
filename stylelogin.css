@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image:url(LeftFlowers.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.container {
+    width: 100%;
+    max-width: 30vw;
+    padding: 20px;
+    background-color: rgba(249, 181, 181, 0.915);
+    border-radius: 8px;
+}
+
+.form-container {
+    position: relative;
+}
+
+.form-toggle {
+    display: flex;
+    justify-content: space-between;    
+}
+
+.form-toggle button {
+    flex: 1;
+    padding: 10px;
+    border: 2px solid white;
+    background-color: #007bff;
+    border-radius: 5rem;
+    cursor: pointer;
+    font-weight: bold;
+    color: #ffffff;
+}
+.form-toggle button:hover{
+    background-color:floralwhite ;
+    color: #007bff;
+}
+
+.form {
+    display: none;
+    flex-direction: column;
+}
+
+.form.active {
+    display: flex;
+}
+
+h2 {
+    text-align: center;
+    color: #000000;
+    font-size: 24px;
+    padding: 1rem;
+    text-decoration: underline;
+}
+
+label {
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: #de378d;
+}
+
+input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+button[type="submit"] {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
